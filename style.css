@@ -1,0 +1,124 @@
+\@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #020b02;
+    color: #00ff00;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+/* ----------------- Header ----------------- */
+
+header {
+    background-color: #001800;
+    padding: 20px 40px;
+    border-bottom: 1px solid #004400;
+    box-shadow: 0 2px 8px #002200;
+}
+
+/* ----------------- Navigation ----------------- */
+
+nav {
+    background-color: #002d00;
+    border-top: 1px solid #004400;
+    border-bottom: 1px solid #004400;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: #00ff00;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #33ff33;
+}
+
+/* ----------------- Buttons ----------------- */
+
+.button,
+.article-but {
+    background-color: transparent;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    padding: 10px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover,
+.article-but:hover {
+    background-color: #00ff00;
+    color: #001800;
+}
+
+/* ----------------- Headings ----------------- */
+
+h1, h2, h3 {
+    color: #00ff00;
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 30px;
+    text-shadow: 0 0 4px #00ff00;
+}
+
+/* ----------------- Posts ----------------- */
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.post {
+    background-color: #001500;
+    border: 1px solid #004400;
+    padding: 20px;
+    width: 340px;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #002200;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+    transform: scale(1.015);
+    box-shadow: 0 0 12px #00ff00;
+}
+
+/* ----------------- Full Image ----------------- */
+
+.full-image {
+    margin: 60px 0;
+    width: 100%;
+    border-radius: 8px;
+    filter: grayscale(70%) brightness(0.8);
+}
+
+/* ----------------- Footer ----------------- */
+
+footer {
+    background-color: #001800;
+    padding: 30px 40px;
+    color: #00ff00;
+    border-top: 1px solid #0033
